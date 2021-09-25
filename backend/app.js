@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const path = require("path");
+const helmet = require("helmet");
 const authRoutes = require("./routes/auth");
 const sauceRoutes = require("./routes/sauce");
 
@@ -18,6 +19,9 @@ mongoose
 	.catch(() => console.log("Connexion à MongoDB échouée !"));
 
 const app = express();
+
+// use helmet for security
+app.use(helmet());
 
 // Headers
 app.use((req, res, next) => {
