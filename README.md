@@ -8,7 +8,7 @@ Here are the dependencies you need to install for the frontend:
 -   Angular CLI 7.0.2.
 -   node-sass : make sure to use the corresponding version to NodeJS. For Noe 14.0 for instance, you need node-sass in version 4.14+.
 
-Here are the dependncies you need to install for the backend:
+Here are the dependencies you need to install for the backend:
 
 -   bcrypt 5.0.1.
 -   dotenv 10.0.0.
@@ -22,6 +22,8 @@ On Windows, these installations require to use PowerShell in administrator mode.
 Clone this repo.
 From the "frontend" folder, run `npm install`.
 From the "backend" folder, run `npm install`.
+
+Create an .env file locally. You can duplicate .env.example and name the new copy .env. Adapt the variables to your needs.
 
 ## Usage
 
