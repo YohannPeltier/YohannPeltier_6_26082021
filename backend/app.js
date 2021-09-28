@@ -10,7 +10,7 @@ const sauceRoutes = require("./routes/sauce");
 dotenv.config();
 
 // Database URL
-const bdUrl = "mongodb+srv://dbUser:.tC4Dm6rhA_g3S.@piiquante.4zrbt.mongodb.net/piiquante?retryWrites=true&w=majority";
+const bdUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 
 // Database connection
 mongoose
