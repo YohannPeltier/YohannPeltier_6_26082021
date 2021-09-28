@@ -23,7 +23,7 @@ Clone this repo.
 From the "frontend" folder, run `npm install`.
 From the "backend" folder, run `npm install`.
 
-Create an .env file locally. You can duplicate .env.example and name the new copy .env. Adapt the variables to your needs.
+Create an .env file locally in backend folder. You can duplicate .env.example and name the new copy .env. Adapt the variables to your needs.
 
 ## Usage
 
